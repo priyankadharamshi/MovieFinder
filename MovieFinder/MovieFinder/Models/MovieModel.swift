@@ -30,7 +30,8 @@ struct Dates: Codable {
 
 struct Movie: Codable {
    
-    let voteCount, movieId: Int
+    let movieId: Int
+    let voteCount : Int
     let video: Bool
     let voteAverage: Double
     let title: String

@@ -51,7 +51,8 @@ class MovieViewModel : NSObject, MovieDataService {
         
         self.successBlock = completionBlock
         self.failureBlock = errorBlock
-        networkManager.getNowPlayingMovieList( completion: { [weak self] (data, error) in
+        
+        networkManager.getMovieDetails(forMovieId, completion: { [weak self] (data, error) in
             
             guard let `self` = self else {return}
             
@@ -64,7 +65,8 @@ class MovieViewModel : NSObject, MovieDataService {
                     let movie = try JSONDecoder().decode(Movie.self, from: data)
                     self.successBlock!([movie])
                     
-                } catch {
+                } catch let err {
+                    print(err)
                     self.failureBlock!(nil)
                 }
             }

@@ -13,7 +13,7 @@ class NetworkManager {
     func getNowPlayingMovieList(completion : @escaping (_ results: Data?, _ error : NSError?) -> Void){
         
         guard let searchURL = movieURLForNowPlaying() else {
-            let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+            let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
             completion(nil, APIError)
             return
         }
@@ -23,7 +23,7 @@ class NetworkManager {
         URLSession.shared.dataTask(with: searchRequest, completionHandler: { (data, response, error) in
             
             if let _ = error {
-                let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+                let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
                 OperationQueue.main.addOperation({
                     completion(nil, APIError)
                 })
@@ -32,7 +32,7 @@ class NetworkManager {
             
             guard let _ = response as? HTTPURLResponse,
                 let data = data else {
-                    let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+                    let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
                     OperationQueue.main.addOperation({
                         completion(nil, APIError)
                     })
@@ -52,7 +52,7 @@ class NetworkManager {
     func getMovieDetails(_ movieId: Int, completion : @escaping (_ results: Data?, _ error : NSError?) -> Void){
         
         guard let searchURL = movieDetailURL(movieId) else {
-            let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+            let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
             completion(nil, APIError)
             return
         }
@@ -62,7 +62,7 @@ class NetworkManager {
         URLSession.shared.dataTask(with: searchRequest, completionHandler: { (data, response, error) in
             
             if let _ = error {
-                let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+                let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
                 OperationQueue.main.addOperation({
                     completion(nil, APIError)
                 })
@@ -71,7 +71,7 @@ class NetworkManager {
             
             guard let _ = response as? HTTPURLResponse,
                 let data = data else {
-                    let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+                    let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
                     OperationQueue.main.addOperation({
                         completion(nil, APIError)
                     })
@@ -87,7 +87,7 @@ class NetworkManager {
     func getCollectionDetails(_ collectionId: Int, completion : @escaping (_ result : Data?, _ error : NSError?) -> Void){
         
         guard let searchURL = collectionDetailURL(collectionId) else {
-            let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+            let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
             completion(nil, APIError)
             return
         }
@@ -97,7 +97,7 @@ class NetworkManager {
         URLSession.shared.dataTask(with: searchRequest, completionHandler: { (data, response, error) in
             
             if let _ = error {
-                let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+                let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
                 OperationQueue.main.addOperation({
                     completion(nil, APIError)
                 })
@@ -106,7 +106,7 @@ class NetworkManager {
             
             guard let _ = response as? HTTPURLResponse,
                 let data = data else {
-                    let APIError = NSError(domain: "MovieDB", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
+                    let APIError = NSError(domain: "MovieFinder", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
                     OperationQueue.main.addOperation({
                         completion(nil, APIError)
                     })
@@ -120,9 +120,9 @@ class NetworkManager {
     
 }
 
-extension NetworkManager {
+fileprivate extension NetworkManager {
     
-    fileprivate func movieURLForNowPlaying() -> URL? {
+    func movieURLForNowPlaying() -> URL? {
         
         let URLString = RequestURLProvider.basemovieURL + "/now_playing?api_key=\(Credential.apiKey)"
         
@@ -133,7 +133,7 @@ extension NetworkManager {
         return url
     }
     
-    fileprivate func movieDetailURL(_ movieId:Int) -> URL? {
+    func movieDetailURL(_ movieId:Int) -> URL? {
         
         let URLString = RequestURLProvider.basemovieURL + "/\(movieId)?api_key=\(Credential.apiKey)"
         
@@ -144,7 +144,7 @@ extension NetworkManager {
         return url
     }
     
-    fileprivate func collectionDetailURL(_ collectionId:Int) -> URL? {
+    func collectionDetailURL(_ collectionId:Int) -> URL? {
         
         let URLString = RequestURLProvider.baseCollectionURL + "/\(collectionId)?api_key=\(Credential.apiKey)"
         
