@@ -1,0 +1,415 @@
+{
+    "results": [
+                {
+                "vote_count": 253,
+                "id": 351286,
+                "video": false,
+                "vote_average": 6.9,
+                "title": "Jurassic World: Fallen Kingdom",
+                "popularity": 361.931764,
+                "poster_path": "/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg",
+                "original_language": "en",
+                "original_title": "Jurassic World: Fallen Kingdom",
+                "genre_ids": [
+                              28,
+                              12,
+                              878
+                              ],
+                "backdrop_path": "/t0Kn7twXduHeFhOpTW2Gncu9l5F.jpg",
+                "adult": false,
+                "overview": "A volcanic eruption threatens the remaining dinosaurs on the island of Isla Nublar, where the creatures have freely roamed for several years after the demise of an animal theme park known as Jurassic World. Claire Dearing, the former park manager, has now founded the Dinosaur Protection Group, an organization dedicated to protecting the dinosaurs. To help with her cause, Claire has recruited Owen Grady, a former dinosaur trainer who worked at the park, to prevent the extinction of the dinosaurs once again.",
+                "release_date": "2018-06-06"
+                },
+                {
+                "vote_count": 1966,
+                "id": 383498,
+                "video": false,
+                "vote_average": 7.8,
+                "title": "Deadpool 2",
+                "popularity": 229.377363,
+                "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+                "original_language": "en",
+                "original_title": "Deadpool 2",
+                "genre_ids": [
+                              28,
+                              35,
+                              878
+                              ],
+                "backdrop_path": "/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg",
+                "adult": false,
+                "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+                "release_date": "2018-05-15"
+                },
+                {
+                "vote_count": 4592,
+                "id": 299536,
+                "video": false,
+                "vote_average": 8.5,
+                "title": "Avengers: Infinity War",
+                "popularity": 157.804428,
+                "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+                "original_language": "en",
+                "original_title": "Avengers: Infinity War",
+                "genre_ids": [
+                              12,
+                              878,
+                              14,
+                              28
+                              ],
+                "backdrop_path": "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg",
+                "adult": false,
+                "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+                "release_date": "2018-04-25"
+                },
+                {
+                "vote_count": 784,
+                "id": 348350,
+                "video": false,
+                "vote_average": 6.9,
+                "title": "Solo: A Star Wars Story",
+                "popularity": 112.155497,
+                "poster_path": "/4oD6VEccFkorEBTEDXtpLAaz0Rl.jpg",
+                "original_language": "en",
+                "original_title": "Solo: A Star Wars Story",
+                "genre_ids": [
+                              28,
+                              12,
+                              878
+                              ],
+                "backdrop_path": "/7LZ0K4FsALrt7OeNIGOVLNuKQRU.jpg",
+                "adult": false,
+                "overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
+                "release_date": "2018-05-23"
+                },
+                {
+                "vote_count": 17,
+                "id": 525102,
+                "video": false,
+                "vote_average": 3.6,
+                "title": "Girl Lost",
+                "popularity": 58.85093,
+                "poster_path": "/n3PDMPyFG04bcXUHHhRIwWd9cx1.jpg",
+                "original_language": "en",
+                "original_title": "Girl Lost",
+                "genre_ids": [
+                              18
+                              ],
+                "backdrop_path": "/j3FnUedjz0NHYFfZ62u9WsBU0wy.jpg",
+                "adult": false,
+                "overview": "Girl Lost tackles the issue of underage prostitution as told through the eyes of a wayward teen. Groomed by her own mother to work in the underbelly of Los Angeles, the young girl struggles to survive in this dark world.",
+                "release_date": "2018-05-01"
+                },
+                {
+                "vote_count": 1393,
+                "id": 401981,
+                "video": false,
+                "vote_average": 6.4,
+                "title": "Red Sparrow",
+                "popularity": 58.080273,
+                "poster_path": "/vLCogyfQGxVLDC1gqUdNAIkc29L.jpg",
+                "original_language": "en",
+                "original_title": "Red Sparrow",
+                "genre_ids": [
+                              9648,
+                              53
+                              ],
+                "backdrop_path": "/sGzuQYSTwJvLBc2PnuSVLHhuFeh.jpg",
+                "adult": false,
+                "overview": "Prima ballerina, Dominika Egorova faces a bleak and uncertain future after she suffers an injury that ends her career. She soon turns to Sparrow School, a secret intelligence service that trains exceptional young people to use their minds and bodies as weapons. Dominika emerges as the most dangerous Sparrow after completing the sadistic training process. As she comes to terms with her new abilities, she meets a CIA agent who tries to convince her that he is the only person she can trust.",
+                "release_date": "2018-03-01"
+                },
+                {
+                "vote_count": 33,
+                "id": 402900,
+                "video": false,
+                "vote_average": 7,
+                "title": "Ocean's 8",
+                "popularity": 57.754085,
+                "poster_path": "/7caaqQjTkovwoZsEOPzgHvkzOWB.jpg",
+                "original_language": "en",
+                "original_title": "Ocean's 8",
+                "genre_ids": [
+                              80,
+                              35,
+                              28,
+                              53
+                              ],
+                "backdrop_path": "/h7L0fqwCHfJOYe7cQG2rAMhlfHh.jpg",
+                "adult": false,
+                "overview": "Debbie Ocean, a criminal mastermind, gathers a crew of seven other female thieves to pull off the heist of the century at New York's annual Met Gala.",
+                "release_date": "2018-06-07"
+                },
+                {
+                "vote_count": 504,
+                "id": 449176,
+                "video": false,
+                "vote_average": 8.4,
+                "title": "Love, Simon",
+                "popularity": 57.444269,
+                "poster_path": "/5YUYg5q7QfC4IoNwNUtiwdiYKPr.jpg",
+                "original_language": "en",
+                "original_title": "Love, Simon",
+                "genre_ids": [
+                              35,
+                              18,
+                              10749
+                              ],
+                "backdrop_path": "/rqMEeajyzSF4PpJtdCB816Iz8Vr.jpg",
+                "adult": false,
+                "overview": "Everyone deserves a great love story. But for seventeen-year old Simon Spier it's a little more complicated: he's yet to tell his family or friends he's gay and he doesn't know the identity of the anonymous classmate he's fallen for online.",
+                "release_date": "2018-03-16"
+                },
+                {
+                "vote_count": 386,
+                "id": 395990,
+                "video": false,
+                "vote_average": 5.5,
+                "title": "Death Wish",
+                "popularity": 49.627339,
+                "poster_path": "/7FG13lLQcV9DC2Bhn0hjxc6AFXV.jpg",
+                "original_language": "en",
+                "original_title": "Death Wish",
+                "genre_ids": [
+                              28,
+                              80,
+                              18,
+                              53
+                              ],
+                "backdrop_path": "/6McrjaqmwyVEIgGrtDemVKMd1LY.jpg",
+                "adult": false,
+                "overview": "A mild-mannered father is transformed into a killing machine after his family is torn apart by a violent act.",
+                "release_date": "2018-03-02"
+                },
+                {
+                "vote_count": 854,
+                "id": 445571,
+                "video": false,
+                "vote_average": 7,
+                "title": "Game Night",
+                "popularity": 42.734913,
+                "poster_path": "/85R8LMyn9f2Lev2YPBF8Nughrkv.jpg",
+                "original_language": "en",
+                "original_title": "Game Night",
+                "genre_ids": [
+                              9648,
+                              35,
+                              80,
+                              53
+                              ],
+                "backdrop_path": "/nFQYnpri9kqJ91sG1IfyhukhdrD.jpg",
+                "adult": false,
+                "overview": "Max and Annie's weekly game night gets kicked up a notch when Max's brother Brooks arranges a murder mystery party -- complete with fake thugs and federal agents. So when Brooks gets kidnapped, it's all supposed to be part of the game. As the competitors set out to solve the case, they start to learn that neither the game nor Brooks are what they seem to be. The friends soon find themselves in over their heads as each twist leads to another unexpected turn over the course of one chaotic night.",
+                "release_date": "2018-02-22"
+                },
+                {
+                "vote_count": 79,
+                "id": 370567,
+                "video": false,
+                "vote_average": 5.1,
+                "title": "Sherlock Gnomes",
+                "popularity": 36.71766,
+                "poster_path": "/xHdf2wRgCSp9MrZRryikiZIH6jB.jpg",
+                "original_language": "en",
+                "original_title": "Sherlock Gnomes",
+                "genre_ids": [
+                              10749,
+                              16,
+                              35,
+                              10751,
+                              14,
+                              9648,
+                              12
+                              ],
+                "backdrop_path": "/dmbD8FDr6DDdinGEs14HC2FmY2w.jpg",
+                "adult": false,
+                "overview": "Garden gnomes, Gnomeo & Juliet, recruit renown detective, Sherlock Gnomes, to investigate the mysterious disappearance of other garden ornaments.",
+                "release_date": "2018-03-15"
+                },
+                {
+                "vote_count": 29,
+                "id": 493922,
+                "video": false,
+                "vote_average": 6.7,
+                "title": "Hereditary",
+                "popularity": 36.165448,
+                "poster_path": "/wihYuMsQADWrSaVThaJunM2wR4V.jpg",
+                "original_language": "en",
+                "original_title": "Hereditary",
+                "genre_ids": [
+                              27,
+                              18,
+                              9648,
+                              53
+                              ],
+                "backdrop_path": "/yVWiOMpzf7gullGvug83r7gMdha.jpg",
+                "adult": false,
+                "overview": "After their reclusive grandmother passes away, the Graham family tries to escape the dark fate they've inherited.",
+                "release_date": "2018-06-04"
+                },
+                {
+                "vote_count": 683,
+                "id": 427641,
+                "video": false,
+                "vote_average": 5.9,
+                "title": "Rampage",
+                "popularity": 35.641442,
+                "poster_path": "/30oXQKwibh0uANGMs0Sytw3uN22.jpg",
+                "original_language": "en",
+                "original_title": "Rampage",
+                "genre_ids": [
+                              28,
+                              12,
+                              878
+                              ],
+                "backdrop_path": "/wrqUiMXttHE4UBFMhLHlN601MZh.jpg",
+                "adult": false,
+                "overview": "Primatologist Davis Okoye shares an unshakable bond with George, the extraordinarily intelligent, silverback gorilla who has been in his care since birth.  But a rogue genetic experiment gone awry mutates this gentle ape into a raging creature of enormous size.  To make matters worse, it’s soon discovered there are other similarly altered animals.  As these newly created alpha predators tear across North America, destroying everything in their path, Okoye teams with a discredited genetic engineer to secure an antidote, fighting his way through an ever-changing battlefield, not only to halt a global catastrophe but to save the fearsome creature that was once his friend.",
+                "release_date": "2018-04-12"
+                },
+                {
+                "vote_count": 92,
+                "id": 467660,
+                "video": false,
+                "vote_average": 6.1,
+                "title": "Unsane",
+                "popularity": 35.377815,
+                "poster_path": "/1M1U5K4Vf1Cbtrjl9EkGNWpqahf.jpg",
+                "original_language": "en",
+                "original_title": "Unsane",
+                "genre_ids": [
+                              27,
+                              53
+                              ],
+                "backdrop_path": "/5u0ImRdr8Z6uyDfmSWcThXEb8cl.jpg",
+                "adult": false,
+                "overview": "A woman is involuntarily committed to a mental institution amid uncertainty as to whether her greatest fear is real or delusional.",
+                "release_date": "2018-03-23"
+                },
+                {
+                "vote_count": 1291,
+                "id": 447332,
+                "video": false,
+                "vote_average": 7.3,
+                "title": "A Quiet Place",
+                "popularity": 35.041422,
+                "poster_path": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+                "original_language": "en",
+                "original_title": "A Quiet Place",
+                "genre_ids": [
+                              18,
+                              27,
+                              53,
+                              878
+                              ],
+                "backdrop_path": "/roYyPiQDQKmIKUEhO912693tSja.jpg",
+                "adult": false,
+                "overview": "A family is forced to live in silence while hiding from creatures that hunt by sound.",
+                "release_date": "2018-04-05"
+                },
+                {
+                "vote_count": 13,
+                "id": 490214,
+                "video": false,
+                "vote_average": 4.4,
+                "title": "Iceman 2",
+                "popularity": 33.566943,
+                "poster_path": "/enZENHd2gwVAw4sJKJxtJl1vJ09.jpg",
+                "original_language": "cn",
+                "original_title": "时空行者",
+                "genre_ids": [
+                              28,
+                              35,
+                              36
+                              ],
+                "backdrop_path": "/6SOLRw0mLepY83uonpbhWIe8mWx.jpg",
+                "adult": false,
+                "overview": "The imperial guard and his three traitorous childhood friends ordered to hunt him down get accidentally buried and kept frozen in time. 400 years later pass and they are defrosted continuing the battle they left behind",
+                "release_date": "2018-05-18"
+                },
+                {
+                "vote_count": 187,
+                "id": 460019,
+                "video": false,
+                "vote_average": 6,
+                "title": "Truth or Dare",
+                "popularity": 32.981599,
+                "poster_path": "/zbvziwnZa91AJD78Si0hUb5JP5X.jpg",
+                "original_language": "en",
+                "original_title": "Truth or Dare",
+                "genre_ids": [
+                              53,
+                              27
+                              ],
+                "backdrop_path": "/eQ5xu2pQ5Kergubto5PbbUzey28.jpg",
+                "adult": false,
+                "overview": "A harmless game of “Truth or Dare” among friends turns deadly when someone—or something—begins to punish those who tell a lie—or refuse the dare.",
+                "release_date": "2018-04-12"
+                },
+                {
+                "vote_count": 837,
+                "id": 400617,
+                "video": false,
+                "vote_average": 7.3,
+                "title": "Phantom Thread",
+                "popularity": 31.283998,
+                "poster_path": "/6jsqmMgR75VYC9AM6eToMJh3RxF.jpg",
+                "original_language": "en",
+                "original_title": "Phantom Thread",
+                "genre_ids": [
+                              18,
+                              10749
+                              ],
+                "backdrop_path": "/vpRMzPqHC03I7hPPET4Av2OT8dI.jpg",
+                "adult": false,
+                "overview": "In the glamour of 1950s post-war London, renowned dressmaker Reynolds Woodcock and his sister Cyril are at the center of British fashion. Women come and go through Woodcock’s life, providing the confirmed bachelor with inspiration and companionship, until he comes across a young, strong-willed woman, Alma, who soon becomes a fixture in his life as his muse and lover. Once controlled and planned, he finds his carefully tailored life disrupted by love.",
+                "release_date": "2017-12-25"
+                },
+                {
+                "vote_count": 3,
+                "id": 406761,
+                "video": false,
+                "vote_average": 5.7,
+                "title": "Hotel Artemis",
+                "popularity": 29.730962,
+                "poster_path": "/gchhqclKEEwwAOzdILPWBO14ONB.jpg",
+                "original_language": "en",
+                "original_title": "Hotel Artemis",
+                "genre_ids": [
+                              53,
+                              878
+                              ],
+                "backdrop_path": "/rjE0Vf4z3WELachJnAHT7WVTgwR.jpg",
+                "adult": false,
+                "overview": "A near-future thriller, set in its own distinctive crime universe, \"Hotel Artemis\" follows a nurse who runs an underground hospital for Los Angeles' most sinister criminals, and finds that one of her patients is actually there to assassinate another.",
+                "release_date": "2018-06-08"
+                },
+                {
+                "vote_count": 92,
+                "id": 340022,
+                "video": false,
+                "vote_average": 6.2,
+                "title": "Gringo",
+                "popularity": 29.592977,
+                "poster_path": "/dxeVPklFwng2IowqRPNI4od6aXv.jpg",
+                "original_language": "en",
+                "original_title": "Gringo",
+                "genre_ids": [
+                              35,
+                              18,
+                              28,
+                              80
+                              ],
+                "backdrop_path": "/1u2f04uoVGTjmThK71yDDqeQwK0.jpg",
+                "adult": false,
+                "overview": "An American businessman with a stake in a pharmaceutical company that's about to go public finds his life is thrown into turmoil by an incident in Mexico.",
+                "release_date": "2018-03-09"
+                }
+                ],
+    "page": 1,
+    "total_results": 1060,
+    "dates": {
+        "maximum": "2018-06-14",
+        "minimum": "2018-04-27"
+    },
+    "total_pages": 53
+}
