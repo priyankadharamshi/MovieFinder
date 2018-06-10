@@ -10,6 +10,6 @@ import Foundation
 
 struct Credential {
     
-    static let apiKey = "fb39567c74c44b87d4b852e93633daa5"
+    static let apiKey = "xxxxx"
 
 }

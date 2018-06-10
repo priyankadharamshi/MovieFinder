@@ -25,7 +25,6 @@
 		999F8FBF20CD9AD500E39AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999F8FBD20CD9AD500E39AF0 /* Main.storyboard */; };
 		999F8FC120CD9ADD00E39AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 999F8FC020CD9ADD00E39AF0 /* Assets.xcassets */; };
 		999F8FC420CD9ADD00E39AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999F8FC220CD9ADD00E39AF0 /* LaunchScreen.storyboard */; };
-		999F8FCF20CD9ADD00E39AF0 /* MovieFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999F8FCE20CD9ADD00E39AF0 /* MovieFinderTests.swift */; };
 		999F8FDA20CD9ADD00E39AF0 /* MovieFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999F8FD920CD9ADD00E39AF0 /* MovieFinderUITests.swift */; };
 		999F8FE820CD9B7100E39AF0 /* MovieModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999F8FE720CD9B7100E39AF0 /* MovieModelTests.swift */; };
 		999F8FED20CD9BE700E39AF0 /* moviedetail_351286.json in Resources */ = {isa = PBXBuildFile; fileRef = 999F8FE920CD9BE600E39AF0 /* moviedetail_351286.json */; };
@@ -83,7 +82,6 @@
 		999F8FC020CD9ADD00E39AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		999F8FC320CD9ADD00E39AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		999F8FCA20CD9ADD00E39AF0 /* MovieFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		999F8FCE20CD9ADD00E39AF0 /* MovieFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFinderTests.swift; sourceTree = "<group>"; };
 		999F8FD020CD9ADD00E39AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		999F8FD520CD9ADD00E39AF0 /* MovieFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		999F8FD920CD9ADD00E39AF0 /* MovieFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFinderUITests.swift; sourceTree = "<group>"; };
@@ -217,7 +215,6 @@
 			children = (
 				991E9E4C20CDAC53005961DA /* MockViewModels */,
 				999F8FFC20CDA0DE00E39AF0 /* DataFiles */,
-				999F8FCE20CD9ADD00E39AF0 /* MovieFinderTests.swift */,
 				999F8FE720CD9B7100E39AF0 /* MovieModelTests.swift */,
 				999F8FFA20CD9E1E00E39AF0 /* MovieTests.swift */,
 				999F900720CDA89900E39AF0 /* MovieViewModelTests.swift */,
@@ -424,7 +421,6 @@
 				999F900820CDA89900E39AF0 /* MovieViewModelTests.swift in Sources */,
 				991E9E4B20CDABDD005961DA /* MockCollectionViewModel.swift in Sources */,
 				999F8FE820CD9B7100E39AF0 /* MovieModelTests.swift in Sources */,
-				999F8FCF20CD9ADD00E39AF0 /* MovieFinderTests.swift in Sources */,
 				999F8FFB20CD9E1E00E39AF0 /* MovieTests.swift in Sources */,
 				991E9E4920CDABCC005961DA /* CollectionViewModelTests.swift in Sources */,
 				999F900620CDA7FC00E39AF0 /* MockMovieViewModel.swift in Sources */,
