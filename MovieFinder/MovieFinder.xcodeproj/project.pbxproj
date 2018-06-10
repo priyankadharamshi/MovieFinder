@@ -180,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				999F8FB820CD9AD500E39AF0 /* MovieFinder */,
-				999F8FB920CD9AD500E39AF0 /* AppDelegate.swift */,
 				999F8FCD20CD9ADD00E39AF0 /* MovieFinderTests */,
 				999F8FD820CD9ADD00E39AF0 /* MovieFinderUITests */,
 				999F8FB720CD9AD500E39AF0 /* Products */,
@@ -201,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				991E9E5A20CDAF8A005961DA /* Info.plist */,
+				999F8FB920CD9AD500E39AF0 /* AppDelegate.swift */,
 				991E9E5320CDAF2D005961DA /* ViewModels */,
 				991E9E5020CDAE9E005961DA /* ViewControllers */,
 				991E9E4E20CDAD89005961DA /* Models */,
