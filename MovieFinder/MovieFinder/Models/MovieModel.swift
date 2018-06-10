@@ -43,6 +43,15 @@ struct Movie: Codable {
     let adult: Bool
     let overview, releaseDate: String
     
+    var posterImagePath : String? {
+        get {
+            if let posterPath = posterPath {
+                return RequestURLProvider.imageBaseURL + posterPath
+            }
+            return nil
+        }
+    }
+    
     // Detail movie model - Making optional to support both models
     let belongsToCollection: BelongsToCollection?
     let budget: Int?
@@ -60,18 +69,7 @@ struct Movie: Codable {
     let status: String?
     let tagline: String?
     
-    var posterImagePath : String? {
-        
-        get {
-            
-            if let posterPath = posterPath {
-                
-                return RequestURLProvider.imageBaseURL + posterPath
-            }
-            return nil
-        }
-    }
-    
+ 
     // MARK: Private properties
     private let posterPath: String?
     

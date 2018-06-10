@@ -11,5 +11,6 @@ import Foundation
 struct RequestURLProvider {
     
     static let imageBaseURL =  "https://image.tmdb.org/t/p/w185/"
-    static let baseURL = ""
+    static let basemovieURL = "https://api.themoviedb.org/3/movie"
+    static let baseCollectionURL = "https://api.themoviedb.org/3/collection"
 }
