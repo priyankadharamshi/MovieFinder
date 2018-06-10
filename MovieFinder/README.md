@@ -30,11 +30,12 @@ This project is written in Swift 4.1 and requires Xcode 9.3 to build and run. Th
 ## Proposed Enhancements
 1. Support for display of multiple page now playing list.
 2. Search/filter based on various parameters ( popularity, vote count, release date, etc)
-3. Unit Testing ViewControllers.
+3. Unit Testing ViewControllers and UI Testing
 4. Better error handling.
 5. More UI elements (textfields) in both Grid and Movie detail screens.
 6. Network manager tests.
 7. Performance improvisation by caching images for posters in a central location.
+8. Proper dependency injection of view models in ViewControllers and better navigation flow.
 
 ## Contact Info
 dharamshi.priyanka@gmail.com
